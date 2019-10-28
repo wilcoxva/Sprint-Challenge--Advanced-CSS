@@ -246,7 +246,7 @@ footer {
   margin: 10px;
   padding: 10px;
 }
-.home .walk .walk-text .btn :hover {
+.home .walk .walk-text .btn:hover {
   background-color: white;
   color: black;
 }
