@@ -1,1 +1,28 @@
 // Mixins Here
+
+.btn(@bg,@color) {
+  background-color: @bg; /* Green */
+  border: none;
+  color: @color;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  :hover {
+    background-color: @color;
+    color: @bg;
+  }
+}
+
+.flex(@justify,@align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.spacing {
+    margin: 20px;
+    padding: 20px;
+}
