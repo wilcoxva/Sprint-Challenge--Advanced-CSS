@@ -1,6 +1,6 @@
 .spacing {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -149,6 +149,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -163,6 +166,21 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.nav h1 {
+  text-align: center;
+}
+.nav nav {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.nav nav a {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #454A59;
 }
 footer {
   color: #22283B;
@@ -215,6 +233,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: black;
+  /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  border-radius: 5;
+  margin: 10px;
+  padding: 10px;
+}
+.home .walk .walk-text .btn :hover {
+  background-color: white;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
